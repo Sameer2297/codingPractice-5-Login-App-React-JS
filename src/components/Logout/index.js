@@ -5,7 +5,7 @@ const Logout = props => {
 
   return (
     <button type="button" onClick={loggedOut}>
-      Log Out
+      Logout
     </button>
   )
 }

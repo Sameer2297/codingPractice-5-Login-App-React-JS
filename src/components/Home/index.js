@@ -5,7 +5,7 @@ import Logout from '../Logout'
 import './index.css'
 
 class Home extends Component {
-  state = {isLoggedIn: true}
+  state = {isLoggedIn: false}
 
   onLogin = () => {
     this.setState(prevState => ({isLoggedIn: !prevState.isLoggedIn}))
